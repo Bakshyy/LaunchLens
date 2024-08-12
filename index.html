@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaunchLens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LaunchLens</h1>
+            <p>Empower Your Decisions with Real-Time Data Insights</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="prompt-section">
+                <h2>Enter Your Research Prompt</h2>
+                <form id="prompt-form">
+                    <textarea id="prompt-input" placeholder="Ask your question here..."></textarea>
+                    <button type="submit">Analyze</button>
+                </form>
+            </section>
+
+            <section id="results-section" class="hidden">
+                <h2>Research Results</h2>
+                <div id="results-output">
+                </div>
+                <div class="additional-prompt">
+                    <h3>Refine Your Search</h3>
+                    <textarea id="refine-input" placeholder="Enter additional requests..."></textarea>
+                    <button id="refine-btn">Refine</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
